@@ -117,7 +117,7 @@
       let initial_nav = select(window.location.hash)
 
       if (initial_nav) {
-        let header = select('#header')
+        let header = select('#portfolio')
         let navlinks = select('#navbar .nav-link', true)
 
         header.classList.add('header-top')
